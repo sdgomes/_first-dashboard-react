@@ -1,0 +1,164 @@
+body {
+    font-family: 'Didact Gothic';
+}
+
+.App {
+    // background: gray;
+}
+
+.didactGothic {
+    font-family: 'Didact Gothic';
+}
+
+.cardo {
+    font-family: 'Cardo';
+}
+
+input:focus,
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn.search-btn {
+    background: transparent;
+    border: 0;
+    padding: .113rem .5rem;
+    font-size: .79rem;
+    margin-right: 10px;
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+#NavigationSearch {
+    height: calc(1em + .7rem + 1px);
+    font-size: .95rem;
+    &::placeholder {
+        color: white;
+        font-size: 75%;
+    }
+}
+
+#dropdown-basic-button {
+    background: transparent;
+    border: 0;
+    font-size: .8rem;
+}
+
+[aria-labelledby="dropdown-basic-button"] {
+    left: unset;
+    right: 0;
+}
+
+.sub-nav-lik {
+    padding: .45rem 1rem;
+    &.active {
+        border-bottom: 2px solid;
+    }
+}
+
+.bg-navbar {
+    background: #292929;
+}
+
+.stripe {
+    background: #4e4e4e;
+    padding-left: 6rem;
+}
+
+.search-bar {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navgation-card {
+    padding-left: 60px;
+}
+
+.aside-nav {
+    width: 60px;
+    height: 100vh;
+    background: #a2a2a2;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.block-aside {
+    background: #4e4e4e;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img {
+        width: 24px;
+    }
+}
+
+.stayed-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1030;
+    &.negative {
+        left: 100%;
+    }
+}
+
+.aside-wrapper {}
+
+#AsideToggle {
+    display: none;
+    background-color: black;
+    height: calc(100vh - 56px) !important;
+}
+
+.aside-item {
+    color: #292929;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    &:hover {
+        background: rgba(78, 78, 78, 0.5);
+    }
+}
+
+.main-container {
+    margin: 25px 30px 0 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 576px) {
+    .main-container {}
+}
+
+@media (min-width: 768px) {
+    .main-container {}
+}
+
+@media (min-width: 992px) {
+    .main-container {}
+}
+
+@media (min-width: 1200px) {
+    .main-container {}
+}
+
+@media (min-width: 1210px) {
+    .main-container {}
+}
+
+@media (min-width: 1440px) {
+    .main-container {}
+}
+
+@media (min-width: 1440px) {
+    .main-container {}
+}
